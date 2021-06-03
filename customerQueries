@@ -1,0 +1,13 @@
+customerQueries(queriesAnswered,queriesUnanswered)
+Set: Queries,queriesAnswered,queriesUnanswered
+Read: Query
+Read: queriesAnswered
+Read: queriesUnanswered
+}
+
+queriesAnswered(){
+If(Query==queryAnswered)then
+Print"This query has been answered"
+queriesUnanswered(){
+If(Query==queryUnanswered)then
+Print"This query is unanswered"
